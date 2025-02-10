@@ -34,7 +34,7 @@ const GenerateTrip = () => {
 
     const FINAL_PROMPT = AI_PROMPT.replace(
       "{location}",
-      locationInfo?.name || ""
+      locationInfo?.name || ""   
     )
       .replace("{totalDays}", totalDays.toString())
       .replace("{totalNights}", totalNights.toString())
